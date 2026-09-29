@@ -1,0 +1,23 @@
+PROJETO DISCIPLINA — versão web instalável (PWA)
+
+O que inclui:
+- Rotina de exercícios com marcação e pontos
+- Registro diário de água e meta ajustável
+- Registro de refeições, calorias e proteína estimadas
+- Calculadora de IMC com aviso de interpretação para adolescentes
+- Registro de sono
+- Hábitos diários
+- Histórico manual de até 7 dias
+- Preferências e lembretes com notificações do navegador enquanto o app está aberto
+- Armazenamento local no navegador do dispositivo
+
+COMO TESTAR
+1. Extraia o arquivo ZIP.
+2. Abra index.html no navegador para testar as funções básicas.
+3. Para instalar como aplicativo (PWA), os arquivos precisam ser publicados em um endereço HTTPS. Depois, abra o endereço no Chrome do Android e use o menu > Adicionar à tela inicial / Instalar app.
+
+LIMITAÇÕES IMPORTANTES
+- Este pacote ainda não é um APK nativo.
+- O armazenamento é local; os dados não sincronizam entre dispositivos e podem ser apagados se os dados do navegador forem limpos.
+- Notificações programadas funcionam enquanto a página está aberta; não são garantidas com o app fechado. Para notificações confiáveis em segundo plano, é necessário implementar uma versão nativa ou um serviço de push.
+- Calorias, proteína, água e IMC são registros/estimativas informativas, não orientação médica. Para adolescentes, não use o IMC isolado para classificar o estado nutricional; procure profissional de saúde para interpretação individual.
